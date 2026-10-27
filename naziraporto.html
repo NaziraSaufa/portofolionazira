@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nazira Saufa Fadilla</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'soft-pink': '#FDF2F8',
+                        'girly-pink': '#FBCFE8',
+                        'accent-pink': '#F472B6',
+                        'earth-light': '#E7E5E4',
+                        'earth-tone': '#A8A29E',
+                        'earth-dark': '#57534E',
+                        'text-main': '#44403C'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+        .card-interactive {
+            transition: all 0.3s ease;
+        }
+        .card-interactive:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px -10px rgba(168, 162, 158, 0.4);
+            border-color: #FBCFE8;
+        }
+        .btn-drive:hover {
+            transform: scale(1.05);
+            background-color: #F472B6;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-soft-pink text-text-main antialiased selection:bg-accent-pink selection:text-white">
+
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50 border-b border-girly-pink">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-xl text-earth-dark tracking-wide">Nazira.</span>
+            <div class="hidden md:flex space-x-4 text-sm font-medium text-earth-dark">
+                <a href="#about" class="hover:text-accent-pink transition-colors">About</a>
+                <a href="#education" class="hover:text-accent-pink transition-colors">Education</a>
+                <a href="#experience" class="hover:text-accent-pink transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-accent-pink transition-colors">Projects</a>
+                <a href="#skills" class="hover:text-accent-pink transition-colors">Skills & Tools</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="pt-32 pb-16 px-6 max-w-4xl mx-auto text-center">
+        <div class="mb-6 relative inline-block">
+            <img src="c:\Users\Asus\OneDrive\Dokumen\nazira\profilnaz.jpg.jpeg" alt="Nazira's Profile Picture" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-girly-pink shadow-lg mx-auto">
+            <div class="absolute -bottom-2 -right-2 bg-white p-2 rounded-full shadow-md text-2xl border border-girly-pink">✨</div>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-extrabold text-earth-dark mb-3">Nazira Saufa Fadilla</h1>
+        <p class="text-lg md:text-xl text-earth-tone mb-6">Digital Business Student | Content Creator | Video Editor</p>
+        <p class="max-w-2xl mx-auto text-center leading-relaxed text-earth-dark mb-8">
+            Skilled in developing creative concepts, producing engaging video content, and managing brand social media presence. Passionate about digital marketing, branding, and creative storytelling to connect audiences with brands effectively.
+        </p>
+
+        <div class="flex justify-center gap-4">
+            <a href="https://www.instagram.com/nazzirafdll?rpxt=MWhvZXFoNHNoa2s0cA%3D%3D&utm_source=qr" target="_blank" class="px-6 py-3 bg-white border-2 border-girly-pink text-earth-dark rounded-full font-semibold hover:bg-girly-pink transition-all shadow-sm">
+                📷 Instagram
+            </a>
+            <a href="mailto:nazirafadilla1145@gmail.com" class="px-6 py-3 bg-accent-pink text-white rounded-full font-semibold hover:bg-pink-500 transition-all shadow-md">
+                Contact Me
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 pb-20 space-y-16">
+
+        <section id="education" class="pt-4">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="text-3xl">🎓</span>
+                <h2 class="text-3xl font-bold text-earth-dark border-b-2 border-girly-pink pb-2 inline-block">Education</h2>
+            </div>
+            <div class="space-y-6">
+
+                <div class="card-interactive bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-earth-light">
+                    <div class="flex flex-col md:flex-row justify-between md:items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-earth-dark">Cakrawala University</h3>
+                            <p class="text-accent-pink font-medium">Bachelor's Degree in Digital Business (Faculty of Economics and Business)</p>
+                        </div>
+                        <span class="text-earth-tone text-sm bg-soft-pink px-3 py-1 rounded-full mt-2 md:mt-0 inline-block w-max">Sep 2025 - Present</span>
+                    </div>
+                    <ul class="list-disc list-inside text-earth-dark space-y-2 mb-6">
+                        <li>Currently in progress.</li>
+                        <li>Top 5 Finalist - Business Plan Competition (2025).</li>
+                        <li>2nd Runner Up (Juara Harapan 2) - Business Case Competition by Cakrawala Festival (Stratexia).</li>
+                    </ul>
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-interactive bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-earth-light">
+                    <div class="flex flex-col md:flex-row justify-between md:items-center">
+                        <div>
+                            <h3 class="text-xl font-bold text-earth-dark">SMA Keluarga Widuri</h3>
+                            <p class="text-earth-tone font-medium">Social Sciences Major</p>
+                        </div>
+                        <span class="text-earth-tone text-sm bg-earth-light px-3 py-1 rounded-full mt-2 md:mt-0 inline-block w-max">Graduated in 2024</span>
+                    </div>
+                    <div class="mt-4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="pt-4">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="text-3xl">💼</span>
+                <h2 class="text-3xl font-bold text-earth-dark border-b-2 border-girly-pink pb-2 inline-block">Professional Experience</h2>
+            </div>
+            
+            <div class="space-y-6">
+                <!-- PT Makmur Visual Harapan -->
+                <div class="card-interactive bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-earth-light">
+                    <div class="flex flex-col md:flex-row justify-between md:items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-earth-dark">Content Creator & Video Editor</h3>
+                            <p class="text-accent-pink font-medium">PT Makmur Visual Harapan</p>
+                        </div>
+                        <span class="text-earth-tone text-sm bg-soft-pink px-3 py-1 rounded-full mt-2 md:mt-0 inline-block w-max">July 2024 - Present</span>
+                    </div>
+                    <ul class="list-disc list-inside text-earth-dark space-y-2 mb-6">
+                        <li>Produced and edited high-performing video content for YouTube Shorts, TikTok, and Reels.</li>
+                        <li>Built and scaled a brand TikTok account from zero to 13K+ followers, generating 1M+ total likes.</li>
+                        <li>Successfully drove brand growth, supporting product sales exceeding 10,000+ units.</li>
+                        <li>Led end-to-end content production, from concept development to final delivery.</li>
+                    </ul>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-interactive bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-earth-light">
+                    <div class="flex flex-col md:flex-row justify-between md:items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-earth-dark">Class Facilitator (Part-Time)</h3>
+                            <p class="text-earth-tone font-medium">Cakrawala University</p>
+                        </div>
+                        <span class="text-earth-tone text-sm bg-earth-light px-3 py-1 rounded-full mt-2 md:mt-0 inline-block w-max">Sep 2025 - Present</span>
+                    </div>
+                    <ul class="list-disc list-inside text-earth-dark space-y-2 mb-6">
+                        <li>Facilitated both online and offline classes effectively.</li>
+                        <li>Assisted lecturers in managing class activities and learning flow to ensure smooth coordination.</li>
+                    </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="pt-4">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="text-3xl">🌟</span>
+                <h2 class="text-3xl font-bold text-earth-dark border-b-2 border-girly-pink pb-2 inline-block">Projects & Achievements</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="card-interactive bg-white p-6 rounded-3xl shadow-sm border border-earth-light flex flex-col justify-between">
+                    <div>
+                        <div class="bg-girly-pink w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-4">🍌</div>
+                        <h3 class="text-xl font-bold text-earth-dark mb-2">SecondBite</h3>
+                        <p class="text-earth-tone text-sm mb-4">Consumer Behavior Analysis & Business Plan</p>
+                        <p class="text-earth-dark mb-6 text-sm leading-relaxed">
+                            An innovation project for healthy snacks made from natural fruit waste targeting the youth market. Included comprehensive target market research, hygienic packaging design, and environmental education-based brand positioning.
+                        </p>
+                    </div>
+
+                    <div class="mt-auto">
+                        <a href="https://drive.google.com/file/d/1EYSHnEqrFRTvJM_OSLr1STbrzOCChwrc/view?usp=sharing" target="_blank" class="btn-drive inline-flex items-center gap-2 px-4 py-2 bg-girly-pink text-earth-dark text-sm font-medium rounded-2xl transition-all w-full justify-center">
+                            📁 View Project Document
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-interactive bg-white p-6 rounded-3xl shadow-sm border border-earth-light flex flex-col justify-between">
+                    <div>
+                        <div class="bg-earth-light w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-4">📱</div>
+                        <h3 class="text-xl font-bold text-earth-dark mb-2">Stratexia (Z-Lock)</h3>
+                        <p class="text-earth-tone text-sm mb-4">FinTech & Financial Inclusion for Gen-Z</p>
+                        <p class="text-earth-dark mb-6 text-sm leading-relaxed">
+                            Won <strong>2nd Runner Up (Juara Harapan 2)</strong> at the Business Case competition (Cakrawala Festival). Delivered a gamified financial literacy and digital data protection solution (Z-Lock, Smart Spend) for Gen-Z.
+                        </p>
+                    </div>
+
+                    <div class="mt-auto">
+                        <a href="https://drive.google.com/file/d/1vKdgjht3C0PuuTt9V9m9C_XdsaejE0KI/view?usp=sharing" target="_blank" class="btn-drive inline-flex items-center gap-2 px-4 py-2 bg-earth-light text-earth-dark text-sm font-medium rounded-2xl transition-all w-full justify-center">
+                            🏆 View Certificate & Pitch Deck
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="pt-4">
+            <div class="flex items-center gap-3 mb-8">
+                <span class="text-3xl">🛠️</span>
+                <h2 class="text-3xl font-bold text-earth-dark border-b-2 border-girly-pink pb-2 inline-block">Skills & Tools</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="card-interactive md:col-span-2 bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-earth-light flex flex-col justify-between">
+                    <div>
+                        <div class="bg-girly-pink w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-4">🎬</div>
+                        <h3 class="text-xl font-bold text-earth-dark mb-3">Content Creation & Strategy</h3>
+                        <p class="text-earth-dark text-sm leading-relaxed">
+                            Directing end-to-end video production and developing creative concepts for short-form platforms (TikTok, Reels, YouTube Shorts). Proven ability to drive brand growth and product sales exceeding 10,000+ units through strategic storytelling.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-interactive bg-girly-pink p-6 md:p-8 rounded-3xl shadow-sm border border-pink-200 flex flex-col justify-between">
+                    <div>
+                        <div class="bg-white w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-4 text-accent-pink">🚀</div>
+                        <h3 class="text-xl font-bold text-earth-dark mb-3">Social Media Management</h3>
+                        <p class="text-earth-dark text-sm leading-relaxed">
+                            Scaling brand visibility and community engagement. Successfully built a TikTok presence from zero to 13K+ followers and generated over 1M+ total likes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-interactive bg-earth-light p-6 md:p-8 rounded-3xl shadow-sm border border-gray-300 flex flex-col justify-between">
+                    <div>
+                        <div class="bg-white w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-4">📊</div>
+                        <h3 class="text-xl font-bold text-earth-dark mb-3">Trend & Market Analysis</h3>
+                        <p class="text-earth-dark text-sm leading-relaxed">
+                            Conducting consumer behavior research and business planning to identify target audiences and position brands effectively in the digital economy.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-interactive md:col-span-2 bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-earth-light flex flex-col justify-between">
+                    <div>
+                        <div class="bg-soft-pink w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-4">💻</div>
+                        <h3 class="text-xl font-bold text-earth-dark mb-3">Software & Tools</h3>
+                        <p class="text-earth-dark text-sm leading-relaxed mb-5">
+                            Bringing creative visions to life using industry-standard post-production and design software:
+                        </p>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="px-4 py-2 bg-earth-light text-earth-dark text-sm font-semibold rounded-2xl flex items-center gap-2 hover:bg-girly-pink transition-colors cursor-default">
+                                🎨 Adobe Photoshop
+                            </span>
+                            <span class="px-4 py-2 bg-earth-light text-earth-dark text-sm font-semibold rounded-2xl flex items-center gap-2 hover:bg-girly-pink transition-colors cursor-default">
+                                🎞️ Adobe After Effects
+                            </span>
+                            <span class="px-4 py-2 bg-earth-light text-earth-dark text-sm font-semibold rounded-2xl flex items-center gap-2 hover:bg-girly-pink transition-colors cursor-default">
+                                ✂️ CapCut
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white border-t border-girly-pink py-8 text-center text-earth-tone mt-10">
+        <p class="font-medium">© 2026 Nazira Saufa Fadilla. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
